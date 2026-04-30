@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "Herobrine",
   "bot-account": {
-    "username": "PerzaanLive",
+    "username": "Herobrine",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "example.aternos.me",
-    "port": 92591,
+    "ip": "darkempireserver.aternos.me",
+    "port": 25797,
     "version": "1.21.1"
   },
   "position": {
@@ -17,9 +17,9 @@
     "z": 0
   },
   "utils": {
-    "auto-auth": {
-      "enabled": true,
-      "password": "Perzuu"
+    "auto-auth" {
+      "enabled": false,
+      "password": ""
     },
     "anti-afk": {
       "enabled": true,
