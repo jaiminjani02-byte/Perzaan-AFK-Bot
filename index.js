@@ -335,7 +335,7 @@ function addInterval(callback, delay) {
 function getReconnectDelay() {
   // Aggressive reconnection: fast, flat delay or very subtle backoff
   const baseDelay = config.utils['auto-reconnect-delay'] || 2000;
-  const maxDelay = config.utils['max-reconnect-delay'] || 15000;
+  const maxDelay = config.utils['max-reconnect-delay'] || 10000;
 
   // Use a much gentler backoff or just a flat delay if user wants "lower"
   // Current logic: attempts * 1000 + base, capped at max
