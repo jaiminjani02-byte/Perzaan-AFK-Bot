@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "Herobrine",
   "bot-account": {
-    "username": "PerzaanLive",
+    "username": "Herobrine",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "example.aternos.me",
-    "port": 92591,
+    "ip": "darkempireserver.aternos.me",
+    "port": 25797,
     "version": "1.21.1"
   },
   "position": {
@@ -18,8 +18,8 @@
   },
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "Perzuu"
+      "enabled": false,
+      "password": ""
     },
     "anti-afk": {
       "enabled": true,
@@ -30,8 +30,7 @@
       "repeat": true,
       "repeat-delay": 500,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Perzaan Gaming!",
+        "Subscribe to Dark Empire SMP!",
         "I like to play Minecraft!"
       ]
     },
